@@ -1,0 +1,14 @@
+body { margin:0; font-family: Inter, sans-serif; display:flex; }
+.sidebar { width:250px; background:#1e272e; min-height:100vh; padding:2rem; box-sizing:border-box; text-align:center; position:fixed;}
+.profile-pic{width:150px;height:150px;border-radius:50%;border:3px solid #38bdf8;}
+.sidebar h2{color:#fff;margin:1rem 0;}
+.sidebar nav a{display:block;color:#94a3b8;text-decoration:none;padding:0.5rem 0;}
+.sidebar nav a:hover{color:#38bdf8;}
+.social a{color:#94a3b8;padding:0 0.5rem;font-size:1.2rem;}
+.social a:hover{color:#38bdf8;}
+main{margin-left:250px;padding:2rem; background:#0f172a; width:100%;min-height:100vh;color:#f8fafc;}
+section{margin-bottom:4rem;}
+section h2{border-bottom:2px solid #38bdf8;padding-bottom:0.5rem;color:#f1f5f9;}
+ul{padding-left:1rem;}
+ul li::before{content:'➤';color:#38bdf8;margin-right:0.5rem;}
+footer{text-align:center;padding:2rem 0;color:#64748b;font-size:0.9rem;}
