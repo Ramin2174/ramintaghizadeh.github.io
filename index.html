@@ -1,122 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ramin Taghizadeh – Nutritionist</title>
+  <meta charset="utf-8">
+  <title>Ramin Taghizadeh | Nutritionist</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <style>
-    body {
-      background-color: #121212;
-      color: #f1f1f1;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      max-width: 960px;
-      margin: auto;
-      padding: 40px 20px;
-      line-height: 1.8;
-    }
-    h1, h2 {
-      color: #00c9a7;
-    }
-    a {
-      color: #4fc3f7;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-bottom: 40px;
-      border-left: 4px solid #00c9a7;
-      padding-left: 20px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    footer {
-      margin-top: 60px;
-      text-align: center;
-      font-size: 0.9em;
-      color: #aaa;
-    }
+    body { background-color: #111; color: white; font-family: 'Open Sans', sans-serif; margin: 0; }
+    .sidebar { width: 260px; background: #1e1e1e; height: 100vh; position: fixed; padding: 20px; box-sizing: border-box; }
+    .content { margin-left: 260px; padding: 30px; }
+    h1, h2, h3 { color: #4db8ff; }
+    a { color: #66ccff; text-decoration: none; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    .profile-pic { width: 150px; height: 150px; border-radius: 50%; border: 3px solid #4db8ff; margin-bottom: 20px; }
   </style>
 </head>
 <body>
 
+<div class="sidebar">
+  <img src="assets/img/profile.jpg" alt="Ramin Taghizadeh" class="profile-pic">
   <h1>Ramin Taghizadeh</h1>
-  <p><strong>Nutritionist | Functional Medicine | Diabetes Care Specialist</strong></p>
-  <p>Email: <a href="mailto:ramintaghizadeh74@gmail.com">ramintaghizadeh74@gmail.com</a></p>
-  <p>Location: Tehran, Iran</p>
+  <p>Nutritionist | Functional Medicine | Diabetes Reversal</p>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#highlights">Highlights</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
 
-  <div class="section">
+<div class="content">
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      I am a clinical nutritionist focused on type 2 diabetes reversal, functional medicine, and lifestyle transformation. 
-      With a decade of experience working with patients both in hospitals and online platforms like Ketonia and Holly Food Canada,
-      I specialize in ketogenic diets, intermittent fasting, and patient-centered education.
-    </p>
-  </div>
+    <p>Nutritionist specialized in diabetes reversal, functional medicine, and sustainable lifestyle transformation.
+    Passionate about integrating personalized nutrition with emerging technologies such as machine learning to improve chronic disease management.</p>
+  </section>
 
-  <div class="section">
+  <section id="highlights">
     <h2>Highlights</h2>
     <ul>
-      <li>Type 2 Diabetes Reversal with Functional Medicine Approach</li>
-      <li>Personalized Ketogenic and Intermittent Fasting Plans</li>
-      <li>Scientific Content Creation in Persian and English</li>
-      <li>Experience in Nutrition Education for Children with Type 1 Diabetes</li>
-      <li>Strong collaboration with doctors, psychologists, and health coaches</li>
+      <li>Type 2 Diabetes Reversal Programs</li>
+      <li>Ketogenic & Intermittent Fasting Meal Plans</li>
+      <li>Functional and Personalized Nutrition</li>
+      <li>Scientific Content Creation & Research Writing</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section">
+  <section id="education">
     <h2>Education</h2>
-    <p><strong>B.Sc. in Nutrition</strong><br>
-    Shahid Beheshti University of Medical Sciences, Tehran, Iran (2011–2015)</p>
-    <p><strong>M.Sc. in Nutrition Sciences</strong><br>
-    Iran University of Medical Sciences, Tehran, Iran (2015–2018)</p>
-  </div>
-
-  <div class="section">
-    <h2>Work Experience</h2>
     <ul>
-      <li><strong>Senior Health Manager – Ketonia Lifestyle Platform (2020–Present)</strong></li>
-      <li><strong>Expert Dietitian – Holly Food Canada (2020–Present)</strong></li>
-      <li><strong>Expert Dietitian – CustomizedPlate Canada (2021–Present)</strong></li>
-      <li><strong>Hospital Dietitian – Shohadaye Tajrish Hospital (2015–2016)</strong></li>
-      <li><strong>Community Dietitian – Qom Health Center (2017–2018)</strong></li>
+      <li>M.Sc. in Health Science in Nutrition – Iran University of Medical Sciences (GPA: 4.0)</li>
+      <li>B.Sc. in Nutrition – Shahid Beheshti University of Medical Sciences (GPA: 4.0)</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section">
-    <h2>Research & Publications</h2>
-    <ul>
-      <li>📄 Iron Deficiency Anemia in Pregnancy – <a href="http://aums.abzums.ac.ir/article-1-1540-en.html" target="_blank">Alborz Medical Journal</a></li>
-      <li>📄 Nutrition Literacy among Seminary Students – <a href="http://journal.muq.ac.ir/article-1-2774-en.html" target="_blank">Qom Univ. Med Sci J</a></li>
-      <li>📄 Monitoring Nutrition in Working Children – <a href="http://journal.muq.ac.ir/article-1-2818-en.html" target="_blank">Qom Univ. Med Sci J</a></li>
-      <li>📘 Persian Translator of “Thinfluence” by Walter Willett – <a href="https://b2n.ir/y02190" target="_blank">View</a></li>
-      <li>🎤 Presentations: <a href="https://b2n.ir/u87579" target="_blank">BMI & Nutrition Literacy</a>, <a href="https://b2n.ir/j62598" target="_blank">Mental Health & Eating Behavior</a></li>
-    </ul>
-  </div>
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>Focused on diabetes remission via lifestyle and functional approaches. Worked with over 500+ patients.</p>
+  </section>
 
-  <div class="section">
-    <h2>Certificates</h2>
-    <ul>
-      <li>Hazard Analysis and Critical Control Points (HACCP)</li>
-      <li>Research Strategy – Iran Univ. of Medical Sciences</li>
-      <li>SPSS, EndNote, Academic Writing</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Contact & Links</h2>
-    <p>Email: <a href="mailto:ramintaghizadeh74@gmail.com">ramintaghizadeh74@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ramin-taghizadeh-a435a5a8" target="_blank">linkedin.com/in/ramin-taghizadeh</a></p>
-    <p>Instagram: <a href="https://instagram.com/ramin.taghizadeh" target="_blank">@ramin.taghizadeh</a></p>
-    <p>Telegram: <a href="https://t.me/ramintaghizadeh" target="_blank">@ramintaghizadeh</a></p>
-  </div>
-
-  <footer>
-    &copy; 2025 Ramin Taghizadeh – All rights reserved.
-  </footer>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email:ramintaghizadeh74@gmail.com</p>
+    <p>Phone: +98-917-2539342</p>
+  </section>
+</div>
 
 </body>
 </html>
